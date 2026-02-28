@@ -41,8 +41,8 @@ export const projects = [
     title: "Semester Project 2",
     teaser:
       "An online auction platform where users can register, list items, place bids, and track active auctions through API-driven data.",
-    thumb: "../assets/thumbs/semester-project-2.webp",
-    hero: "../assets/heroes/semester-project-2-hero.webp",
+    thumb: "../assets/thumbs/semesterproject-2.webp",
+    hero: "../assets/heroes/semesterproject-2-hero.webp",
     heroAlt: "Screenshot of the Semester Project 2 project",
     caption: "Semester Project 2 project preview.",
     liveUrl: "https://bargainbid.netlify.app",
