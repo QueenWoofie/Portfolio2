@@ -1,0 +1,60 @@
+export const projects = [
+  {
+    id: "css-frameworks",
+    title: "CSS Frameworks",
+    teaser:
+      "A front-end social media app with authentication, post creation, profiles, and a dynamic feed powered by API integration.",
+    thumb: "../assets/thumbs/css-frameworks.webp",
+    hero: "../assets/heroes/css-frameworks-hero.webp",
+    heroAlt: "Screenshot of the CSS Frameworks project",
+    caption: "CSS Frameworks project preview.",
+    liveUrl: "https://queenwoofie.github.io/TWSocials/",
+    repoUrl: "https://github.com/QueenWoofie/TWSocials",
+    readmeUrl: "https://github.com/QueenWoofie/TWSocials#readme",
+    details: [
+      "User authentication, post creation, profiles, and dynamic feed features.",
+      "Follow, Unfollow, and Like functionality implemented with API integration.",
+      "For portfolio improvements, I adjusted some of the recommendations from the teacher in this project by removing some unnecessary elements and improving the header to allow for a cleaner, more user-friendly usage.",
+    ],
+  },
+  {
+    id: "js-frameworks",
+    title: "JavaScript Frameworks",
+    teaser:
+      "A portfolio application built with a JavaScript framework, featuring routing, reusable components, and dynamic project rendering.",
+    thumb: "../assets/thumbs/js-frameworks.webp",
+    hero: "../assets/heroes/js-frameworks-hero.webp",
+    heroAlt: "Screenshot of the JavaScript Frameworks project",
+    caption: "JavaScript Frameworks project preview.",
+    liveUrl: "https://jsfwportfolio.netlify.app",
+    repoUrl: "https://github.com/QueenWoofie/jsfw-2025-portfoliofork",
+    readmeUrl: "https://github.com/QueenWoofie/jsfw-2025-portfoliofork#readme",
+    details: [
+      "Client-side routing between pages",
+      "Reusable components for layout and project cards",
+      "Clean separation of concerns between logic and UI",
+      "For portfolio improvements, I made some adjustments to the header to allow for it to stick to the top of the page.",
+    ],
+  },
+  {
+    id: "semester-project-2",
+    title: "Semester Project 2",
+    teaser:
+      "An online auction platform where users can register, list items, place bids, and track active auctions through API-driven data.",
+    thumb: "../assets/thumbs/semester-project-2.webp",
+    hero: "../assets/heroes/semester-project-2-hero.webp",
+    heroAlt: "Screenshot of the Semester Project 2 project",
+    caption: "Semester Project 2 project preview.",
+    liveUrl: "https://bargainbid.netlify.app",
+    repoUrl: "https://github.com/QueenWoofie/SP2-Bargain-Bid",
+    readmeUrl: "https://github.com/QueenWoofie/SP2-Bargain-Bid#readme",
+    details: [
+      "User registration and login system",
+      "Create auction listings with images and descriptions",
+      "Place bids on active listings",
+      "Track remaining auction time",
+      "View user profiles and credit balance",
+      "For portfolio improvements I made a few adjustments to the styling, creating a stronger contrast between colors to pass the WCAG AA requirements.",
+    ],
+  },
+];

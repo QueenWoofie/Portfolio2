@@ -3,7 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Project | Portfolio 2</title>
+    <link rel="stylesheet" href="../css/styles.css" />
   </head>
-  <body></body>
+
+  <body data-project-id="semester-project-2">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="home-link" href="../index.html">← Back</a>
+        <nav aria-label="Primary">
+          <ul class="nav">
+            <li><a href="../index.html#projects">Projects</a></li>
+            <li><a href="../index.html#about">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="container section">
+      <header class="project-header">
+        <div>
+          <h1 id="title"></h1>
+          <p class="muted" id="teaser"></p>
+        </div>
+
+        <div class="share-row">
+          <button class="btn" id="copyLinkBtn" type="button">Copy link</button>
+          <span
+            class="muted"
+            id="copyStatus"
+            role="status"
+            aria-live="polite"
+          ></span>
+        </div>
+      </header>
+
+      <figure class="figure">
+        <img id="heroImg" class="hero-img" alt="" />
+        <figcaption class="muted" id="caption"></figcaption>
+      </figure>
+
+      <div class="actions">
+        <a class="btn" id="liveLink" target="_blank" rel="noreferrer"
+          >Live site</a
+        >
+        <a
+          class="btn btn-outline"
+          id="readmeLink"
+          target="_blank"
+          rel="noreferrer"
+          >GitHub README</a
+        >
+      </div>
+
+      <section aria-labelledby="details-title" class="section">
+        <h2 id="details-title">Project details</h2>
+        <ul id="detailsList" class="bullets"></ul>
+      </section>
+    </main>
+
+    <script type="module" src="../js/project-page.js"></script>
+  </body>
 </html>
