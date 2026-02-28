@@ -1,5 +1,7 @@
 import { projects } from "./projects.js";
 
+const BASE = "/Portfolio2";
+
 const grid = document.getElementById("projectGrid");
 const year = document.getElementById("year");
 year.textContent = String(new Date().getFullYear());
@@ -8,7 +10,10 @@ function cardTemplate(project, pageHref) {
   return `
     <article class="card">
       <a class="card-link" href="${pageHref}">
-        <img class="card-img" src="${project.thumb}" alt="${project.heroAlt}" loading="lazy" />
+        <img class="card-img" 
+          src="${BASE}${project.thumb}" 
+          alt="${project.heroAlt}" 
+          loading="lazy" />
         <div class="card-body">
           <h3 class="card-title">${project.title}</h3>
           <p class="card-text">${project.teaser}</p>
