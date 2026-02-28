@@ -4,7 +4,7 @@ export const projects = [
     title: "CSS Frameworks",
     teaser:
       "A front-end social media app with authentication, post creation, profiles, and a dynamic feed powered by API integration.",
-    thumb: "./assets/thumbs/css-frameworks.webp",
+    thumb: "/assets/thumbs/css-frameworks.webp",
     hero: "../assets/heroes/css-frameworks-hero.webp",
     heroAlt: "Screenshot of the CSS Frameworks project",
     caption: "CSS Frameworks project preview.",
@@ -41,7 +41,7 @@ export const projects = [
     title: "Semester Project 2",
     teaser:
       "An online auction platform where users can register, list items, place bids, and track active auctions through API-driven data.",
-    thumb: "./assets/thumbs/semesterproject-2.webp",
+    thumb: "/assets/thumbs/semesterproject-2.webp",
     hero: "../assets/heroes/semesterproject-2-hero.webp",
     heroAlt: "Screenshot of the Semester Project 2 project",
     caption: "Semester Project 2 project preview.",
